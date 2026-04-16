@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "booking", "booking.csproj", "{817E7C3B-531B-7817-454A-3ECCD901CBEB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Principal", "Principal\Principal.csproj", "{C295C064-034B-4800-8928-3111E13D23A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "Catalog\Catalog.csproj", "{8BF16E01-90D0-4508-92F5-32F2EAA1E8EF}"
@@ -18,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "Review\Review.csproj", "{3337481A-0AD5-4922-861F-95ACA4F5313D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification", "Notification\Notification.csproj", "{B9E7210E-B54F-4262-BD6E-64D360DE5859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{70F76A91-60DD-4322-A43A-A8F30AF58A23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +125,18 @@ Global
 		{B9E7210E-B54F-4262-BD6E-64D360DE5859}.Release|x64.Build.0 = Release|Any CPU
 		{B9E7210E-B54F-4262-BD6E-64D360DE5859}.Release|x86.ActiveCfg = Release|Any CPU
 		{B9E7210E-B54F-4262-BD6E-64D360DE5859}.Release|x86.Build.0 = Release|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Debug|x64.Build.0 = Debug|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Debug|x86.Build.0 = Debug|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Release|x64.ActiveCfg = Release|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Release|x64.Build.0 = Release|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Release|x86.ActiveCfg = Release|Any CPU
+		{70F76A91-60DD-4322-A43A-A8F30AF58A23}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
