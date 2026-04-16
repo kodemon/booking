@@ -1,0 +1,11 @@
+booking.local {
+	tls internal
+
+	handle /api/* {
+		reverse_proxy localhost:5283
+	}
+
+	handle {
+		reverse_proxy localhost:3000
+	}
+}
